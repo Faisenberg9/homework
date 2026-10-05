@@ -1,0 +1,57 @@
+* {
+	font-family: sans-serif;
+	margin-bottom: 5px;
+}
+
+.form-title {
+	font-size: medium;
+	font-weight: 700;
+	margin-bottom: 10px 10px;
+}
+
+fieldset {
+	border: 3px solid #070707;
+	border-radius: 10px;
+	background-color: #5a595856;
+	max-width: 300px;
+}
+
+.new-string {
+	display: block;
+	min-width: 220px;
+	padding: 3px 5px 1px;
+	border: 3px solid #070707;
+	border-radius: 10px;
+	color: #512a95;
+	outline: none;
+}
+
+.send {
+	color: #a6a796;
+	display: block;
+	border-style: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border-color: #070707;
+	background-color: #070707;
+	cursor: pointer;
+}
+.label {
+	color: #512a95;
+}
+
+textarea {
+	resize: vertical;
+	width: 220px;
+	padding: 3px 5px 1px;
+	border: 3px solid #070707;
+	border-radius: 10px;
+	outline: none;
+	min-height: 50px;
+	max-height: 200px;
+}
+
+.consent-label {
+	display: block;
+	cursor: pointer;
+}
