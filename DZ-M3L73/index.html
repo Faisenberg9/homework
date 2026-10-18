@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Стилизация формы</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/normalize.css" />
+	</head>
+	<body>
+		<form class="form">
+			<fieldset class="form-group">
+				<legend class="form-group-title">Ваши личные данные</legend>
+				<label for="name" class="label">Ваше имя</label>
+				<input
+					id="name"
+					class="input"
+					type="text"
+					name="name"
+					placeholder="Имя"
+					required
+				/>
+
+				<label for="age" class="label">Ваш возраст</label>
+				<input
+					id="age"
+					class="input"
+					type="number"
+					name="age"
+					placeholder="Возраст"
+					inputmode="numeric"
+					required
+				/>
+				<label for="phone" class="label">Ваш номер телефона</label>
+				<input
+					id="phone"
+					class="input"
+					type="tel"
+					name="tel-namber"
+					placeholder="Номер телефона"
+					inputmode="tel"
+					required
+				/>
+				<label for="email" class="label">Ваша почта</label>
+				<input
+					id="email"
+					class="input"
+					type="email"
+					name="email"
+					inputmode="email"
+					placeholder="Почта"
+					required
+				/>
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="message" class="label">Сообщение</label>
+				<textarea
+					id="message"
+					class="textarea"
+					name="message"
+					placeholder="Ваше сообщение"
+					required
+				></textarea>
+				<label class="label checkbox-label">
+					<input class="checkbox" type="checkbox" name="consent" required />
+					<span class="checkbox-test">Я принимаю правила</span>
+				</label>
+			</fieldset>
+			<button class="button">Отправить</button>
+		</form>
+	</body>
+</html>
